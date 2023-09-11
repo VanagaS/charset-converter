@@ -1,4 +1,4 @@
-package main
+package charset_converter
 
 import (
 	"bytes"

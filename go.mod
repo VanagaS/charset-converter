@@ -1,4 +1,4 @@
-module github.com/VanagaS/traefik-proxy-charset-converter
+module github.com/VanagaS/charset-converter
 
 go 1.19
 

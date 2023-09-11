@@ -5,7 +5,7 @@ displayName: Charset Converter
 type: middleware
 
 # The import path of your plugin.
-import: github.com/VanagaS/traefik-proxy-charset-converter
+import: github.com/VanagaS/charset-converter
 
 # A brief description of what your plugin is doing.
 summary: Traefik Proxy Charset Converter Plugin
