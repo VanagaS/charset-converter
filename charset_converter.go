@@ -8,7 +8,6 @@ import (
 	"net/http"
 	"strings"
 
-	"golang.org/x/net/html/charset"
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/charmap"
 )
@@ -106,7 +105,7 @@ func convertToUTF8(input []byte, sourceEncoding string, targetEncoding string) (
 	}
 
 	// Use charset.DetermineEncoding to detect the encoding of the input data.
-	_, encodingName, _ := charset.DetermineEncoding(inputBytes, "")
+	// _, encodingName, _ := charset.DetermineEncoding(inputBytes, "utf-8")
 
 	//TODO: hardcoding for utf-8 as first version
 	// Check if the detected encoding is UTF-8.
