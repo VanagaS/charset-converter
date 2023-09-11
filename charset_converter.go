@@ -109,10 +109,10 @@ func convertToUTF8(input []byte, sourceEncoding string, targetEncoding string) (
 
 	//TODO: hardcoding for utf-8 as first version
 	// Check if the detected encoding is UTF-8.
-	if strings.ToLower(encodingName) == strings.ToLower("utf-8") {
-		// The input data is already in UTF-8 encoding
-		return inputBytes, nil
-	}
+	// if strings.ToLower(encodingName) == strings.ToLower("utf-8") {
+	// 	// The input data is already in UTF-8 encoding
+	// 	return inputBytes, nil
+	// }
 
 	var enc encoding.Encoding
 
