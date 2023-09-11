@@ -19,5 +19,5 @@ summary: Traefik Proxy Charset Converter Plugin
 # and Traefik Pilot will try to execute the plugin with the data you provide as part of its startup validity tests.
 testData:
   charset:
-    to: utf-8
-    from: *
+    to: "Windows1252"
+    from: "utf-8"
